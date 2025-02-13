@@ -103,13 +103,22 @@ legend{
 
 fieldset{
     border: 2px solid hsl(300, 24%, 13%);
-    padding: 2%;
     border-radius: 1rem;
+    max-width: 550px;
+    width: 60vw;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.fieldset{
+    padding: 2%;
     display: flex;
     gap: 1rem;
     overflow: auto;
-    width: 90%; 
-  max-width: 400px;
+    max-width: 500px;
+    width: 55vw;
+    height: auto;
     margin: auto;
     scrollbar-width: thin;
     scrollbar-color: #a0a0a0 transparent;
